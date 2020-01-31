@@ -8,7 +8,7 @@ import com.google.zxing.integration.android.IntentResult
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    var scannedResult: String = ""
+    private var scannedResult: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,3 +52,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+
+
